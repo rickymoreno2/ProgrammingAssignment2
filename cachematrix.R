@@ -37,8 +37,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## setinverse function.
 ## the first time you run the code cacheSolve(x) - x being the variable that you
 ## created with the function above - you will get the calculated inverse of the 
-## but the second time you run cacheSolve(x) you will see the message "getting 
-## cached data" which confirms the function works.
+## function but the second time you run cacheSolve(x) you will see the message 
+## "getting cached data" which confirms the function works.
 
 cacheSolve <- function(x, ...) {
         i <- x$getinverse()
